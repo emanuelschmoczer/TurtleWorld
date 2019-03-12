@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		88220BE32237E7FD00FC701E /* GenericGroupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88220BE02237E7B500FC701E /* GenericGroupTests.swift */; };
 		88220BE72237F48500FC701E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88220BE62237F48500FC701E /* TableViewController.swift */; };
-		88220BE92237F4F800FC701E /* TableViewDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88220BE82237F4F800FC701E /* TableViewDataModel.swift */; };
+		88220BEB2237F8AF00FC701E /* TableViewDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88220BEA2237F8AF00FC701E /* TableViewDataModel.swift */; };
 		88DE5EE42237C76800181F5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DE5EE32237C76800181F5B /* AppDelegate.swift */; };
 		88DE5EE62237C76800181F5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DE5EE52237C76800181F5B /* ViewController.swift */; };
 		88DE5EE92237C76800181F5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88DE5EE72237C76800181F5B /* Main.storyboard */; };
@@ -74,7 +74,7 @@
 /* Begin PBXFileReference section */
 		88220BE02237E7B500FC701E /* GenericGroupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericGroupTests.swift; sourceTree = "<group>"; };
 		88220BE62237F48500FC701E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		88220BE82237F4F800FC701E /* TableViewDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataModel.swift; sourceTree = "<group>"; };
+		88220BEA2237F8AF00FC701E /* TableViewDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDataModel.swift; sourceTree = "<group>"; };
 		88DE5EE02237C76800181F5B /* TurtleWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurtleWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88DE5EE32237C76800181F5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88DE5EE52237C76800181F5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -186,10 +186,10 @@
 		88DE5F0A2237C88800181F5B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				88220BEA2237F8AF00FC701E /* TableViewDataModel.swift */,
 				88DE5F0B2237C88800181F5B /* Model.h */,
 				88DE5F0C2237C88800181F5B /* Info.plist */,
 				88DE5F272237CA3900181F5B /* IndexedGroup.swift */,
-				88220BE82237F4F800FC701E /* TableViewDataModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -402,7 +402,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88DE5F282237CA3900181F5B /* IndexedGroup.swift in Sources */,
-				88220BE92237F4F800FC701E /* TableViewDataModel.swift in Sources */,
+				88220BEB2237F8AF00FC701E /* TableViewDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

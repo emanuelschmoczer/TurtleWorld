@@ -7,13 +7,18 @@
 //
 
 import UIKit
+import Model
 
-class TableViewController: UIViewController {
+class TableViewController: UITableViewController {
+
+    private let dataSource = TableViewDataModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Letters"
+        tableView.dataSource = dataSource
 
-        // Do any additional setup after loading the view.
+        self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
     
 
